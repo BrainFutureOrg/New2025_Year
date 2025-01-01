@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 3.31)
 
 project(New2025_Year)
 
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 add_executable(New2025_Year
     src/main.c
     src/libraries/string_bfo/String_array_struct.c
