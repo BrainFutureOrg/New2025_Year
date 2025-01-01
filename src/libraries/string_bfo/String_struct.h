@@ -12,6 +12,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#ifndef uint
+#define uint unsigned int
+#endif
+
 typedef struct
 {
     char *line;
